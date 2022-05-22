@@ -1,12 +1,10 @@
 body {
   background-color: #ffff;
   color: #000000;
-}
-/* Using a sans serif font and increasing the size of the characters */
- {
   font-family: sans-serif;
   font-size: 20px;
 }
+/* Using a sans serif font and increasing the size of the characters */
 
 /* Shift the heading text to the left, by default it is centered */
 table caption {
