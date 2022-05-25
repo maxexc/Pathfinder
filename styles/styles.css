@@ -25,3 +25,20 @@ table td {
   padding: 10px;
   border: 1px solid #2a2a2a;
 }
+
+.alert {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
