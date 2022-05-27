@@ -4,6 +4,32 @@ body {
   font-family: sans-serif;
   font-size: 20px;
 }
+
+.social-link .link {
+  color: orange;
+}
+
+/* Общие стили для всех типов оповещений */
+
+.alert {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Специфические стили для каждого типа */
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
+
 /* Using a sans serif font and increasing the size of the characters */
 
 /* Shift the heading text to the left, by default it is centered */
@@ -24,21 +50,4 @@ table th,
 table td {
   padding: 10px;
   border: 1px solid #2a2a2a;
-}
-
-.alert {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.success {
-  color: green;
-}
-
-.warning {
-  color: orange;
-}
-
-.error {
-  color: red;
 }
