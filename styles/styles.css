@@ -14,6 +14,10 @@ body {
   color: cyan;
 }
 
+.social-links .links:active {
+  color: red;
+}
+
 .social-link .link {
   color: orange;
 }
