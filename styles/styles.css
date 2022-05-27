@@ -5,29 +5,17 @@ body {
   font-size: 20px;
 }
 
+.social-links .links {
+  color: yellowgreen;
+}
+
+.social-links .links:hover,
+.social-links .links:focus {
+  color: cyan;
+}
+
 .social-link .link {
   color: orange;
-}
-
-/* Общие стили для всех типов оповещений */
-
-.alert {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-/* Специфические стили для каждого типа */
-
-.success {
-  color: green;
-}
-
-.warning {
-  color: orange;
-}
-
-.error {
-  color: red;
 }
 
 /* Псевдокласс :hover */
@@ -67,4 +55,25 @@ table td {
 .menu > li {
   border: 1px solid tomato;
   width: 300px;
+}
+
+/* Общие стили для всех типов оповещений */
+
+.alert {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Специфические стили для каждого типа */
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
 }
