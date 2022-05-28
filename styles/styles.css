@@ -18,6 +18,10 @@ body {
   color: red;
 }
 
+.social-links .link:visited {
+  color: green;
+}
+
 .social-link .link {
   color: orange;
 }
@@ -80,4 +84,27 @@ table td {
 
 .error {
   color: red;
+}
+
+.text {
+  background-color: rgba(255, 0, 0, 0.3);
+  color: black;
+}
+
+/* Ховер и таблицы */
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
 }
