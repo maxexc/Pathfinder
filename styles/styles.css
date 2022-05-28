@@ -5,6 +5,23 @@ body {
   font-size: 20px;
 }
 
+/* Добавить сердце перед ссылками */
+a::before {
+  content: "♥";
+  color: pink;
+}
+
+/* remove underline in liks */
+
+.link {
+  text-decoration: none;
+}
+/* end */
+
+.social-links .links {
+  color: orange;
+}
+
 .social-links .links {
   color: yellowgreen;
 }
@@ -20,10 +37,6 @@ body {
 
 .social-links .link:visited {
   color: green;
-}
-
-.social-link .link {
-  color: orange;
 }
 
 /* Псевдокласс :hover */
@@ -86,9 +99,35 @@ table td {
   color: red;
 }
 
+/* /////// Оформление текста/ TEXT STYLES ///////// */
+
+h1,
+h3 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .text {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(0, 128, 0, 0.3);
   color: black;
+  text-transform: capitalize;
+  text-align: left;
+  text-indent: 100px;
+  font-size: 16px;
+  line-height: 1.5;
+  word-spacing: 5px;
+}
+
+.text > span {
+  text-decoration: underline;
+  text-transform: lowercase;
+  letter-spacing: 10px;
 }
 
 /* Ховер и таблицы */
