@@ -11,7 +11,7 @@ a::before {
   color: pink;
 }
 
-/* remove underline in liks */
+/* remove underline in links */
 
 .link {
   text-decoration: none;
