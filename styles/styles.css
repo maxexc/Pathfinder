@@ -165,3 +165,29 @@ pre::selection {
   padding: 8px;
   border: 1px solid #212121;
 }
+
+/* Сброс стилей / Reset styles */
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: currentColor;
+}
+
+address {
+  text-decoration: none;
+}
