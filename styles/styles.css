@@ -5,6 +5,15 @@ body {
   font-size: 20px;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* Добавить сердце перед ссылками */
 a::before {
   content: "♥";
@@ -190,4 +199,15 @@ a {
 
 address {
   text-decoration: none;
+}
+
+.pane {
+  display: none;
+  padding: 8px;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+
+.is-active {
+  display: block;
 }
