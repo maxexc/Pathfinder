@@ -201,13 +201,17 @@ address {
   text-decoration: none;
 }
 
-.pane {
-  display: none;
-  padding: 8px;
-  border: 1px solid blue;
-  border-radius: 3px;
+ul.list {
+  list-style-type: none;
+  display: flex;
 }
-
-.is-active {
-  display: block;
+.list-item {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #4caf50;
+  border: 1px solid #303030;
+  margin-right: 5px;
+  line-height: 30px;
+  border-radius: 50%;
 }
