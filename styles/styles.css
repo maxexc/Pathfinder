@@ -217,3 +217,36 @@ ul.list {
 .list-item:nth-child(-2n + 7) {
   background-color: #4caf50;
 }
+
+.canvas {
+  margin-top: 30px;
+  max-width: 100px;
+  height: 100px;
+
+  background-image: url(../images/icons8-твиттер-48.png),
+    url(../images/Background.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* В таком градиенте:
+
+красный цвет (#f44336) будет распространяться от 0% до 15%
+зелёный цвет (#09792b) будет распространяться от 15% до 40%
+синий цвет (#00b9ff) будет распространяться от 40% до 65%
+жёлтый цвет (#ffb800) будет распространяться от 65% до 100% */
+
+.test {
+  margin: 20px 0;
+  width: 700px;
+  height: 50px;
+  background-image: linear-gradient(
+    to right,
+    #f44336 15%,
+    #09792b 40%,
+    #00b9ff 65%,
+    #ffb800
+  );
+}
