@@ -250,3 +250,20 @@ ul.list {
     #ffb800
   );
 }
+
+/* Если колорстопы заданы в пикселях и общая сумма меньше, 
+чем ширина или высота элемента, то получится повторяющийся градиент. */
+
+.test-repeat {
+  margin: 20px 0;
+  width: 700px;
+  height: 50px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #f44336 30px,
+    #09792b 40px,
+    #00b9ff 65px,
+    #ffb800 90px
+  );
+  background-repeat: repeat-x;
+}
