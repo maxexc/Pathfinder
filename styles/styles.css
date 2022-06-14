@@ -344,3 +344,16 @@ ul.list {
   transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
 /* / */
+
+.bg {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+  border: 10px dashed rgba(0, 0, 0, 0.12);
+  background-image: url(../images/866-200x300.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+}
