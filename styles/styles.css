@@ -455,3 +455,102 @@ ul.list {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+a::before {
+  content: none;
+}
+.modal-form {
+  margin-top: 30px;
+}
+.policy-center {
+  display: flex;
+  justify-content: center;
+}
+.check-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.check-label::before {
+  content: "";
+  width: 40px;
+  height: 22px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  margin-right: 10px;
+
+  transition: background-color 400ms;
+}
+
+.check-label::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.63);
+  margin-right: 10px;
+
+  transition: transform 400ms, background-color 400ms;
+}
+.check-box:checked + .check-label::after {
+  transform: translate(18px);
+  background-color: var(--highlight-color);
+}
+.check-box:checked + .check-label::before {
+  background-color: #92ffaa;
+}
+
+/* ////////////////////sprite/////////////// */
+
+/* .check-label span {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(34, 34, 34, 0.2);
+  border-radius: 4px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-icon {
+  fill: transparent;
+}
+.check-box:checked + .check-label span {
+  background-color: var(--highlight-color);
+  border: none;
+}
+.check-box:checked + .check-label .check-icon {
+  fill: tomato;
+} */
+
+/* ---прячем и убираем из потока--- */
+.check-box {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.privacy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--highlight-color);
+}
